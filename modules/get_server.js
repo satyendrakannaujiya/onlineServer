@@ -6,6 +6,7 @@ const app = express();
 
 
 module.exports = {
+        // This function will return the server with lowest priority
        findServer:(serverList)=>{
                     length = serverList.length;
                     completed_request = 0;
