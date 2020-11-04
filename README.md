@@ -9,8 +9,3 @@ Steps to run the project -
 4. Now run node app.js
 5. Go to the url http://localhost:3000/
 5. You will get the online server with lowest priority
-------
-
-In app.js 
-
-1. You can change the allServer to offlineServer while calling findServer function to see the result while all server is offline .
