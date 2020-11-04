@@ -1,7 +1,7 @@
 const express = require('express');
 const _ = require('lodash');
 const app = express();
-const serverList = require('./modules/ get_server');
+const serverList = require('./modules/get_server');
 const allServer = require('./models/server_list');
 const offline_server = require('./models/offline_server');
 
